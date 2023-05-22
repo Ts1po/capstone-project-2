@@ -1,0 +1,101 @@
+.first-container{
+    position: relative;
+    text-align: center;
+    background-color: #87CEEB;
+    width: 100%;
+}
+
+.head-text {
+    padding-top: 30px;
+}
+
+.name {
+    font-size: 70px;
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.who {
+    display: flex;
+    font-family: 'Barlow', sans-serif;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.laptop {
+    margin-top: 50px;
+    width: 500px;
+}
+
+.second-container {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding-top: 50px;
+    display: block;
+    margin: auto;
+    padding: auto;
+}
+
+h2 {
+    font-size: 50px;
+    font-family: sans-serif;
+    color: aquamarine;
+    display: flex;
+    justify-content: center;
+}
+
+.parent-grid {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+
+
+.aboutskills {
+    display: inline-block;
+    text-align: center;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.skill-container {
+    text-align: center;
+}
+
+.project {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.education {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
